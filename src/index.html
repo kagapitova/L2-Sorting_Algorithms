@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting_Algorithms</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+<h1 class="game__header">Sorting Algorithms</h1>
+<div class="main__container">
+    <aside>
+        <button type="button" class="start__btn newArray">New Array</button>
+        <button type="button" class="start__btn stopSort">Stop</button>
+        <div class="input__container">
+            <div>
+                <label for="arr_sz">Size</label>
+                <input class="player__range player__range-size" id="arr_sz" type="range" min="5" max="40" step=1 value=40>
+            </div>
+            <div>
+                <label for="speed_input">Speed</label>
+                <input class="player__range player__range-speed" id="speed_input" type="range" min="20" max="300" stepDown=10 value=60>
+            </div>
+        </div>
+        <div>
+            <button type="button" class="start__btn mergeSort">Merge Sort</button>
+            <button type="button" class="start__btn selectionSort">Selection Sort</button>
+            <button type="button" class="start__btn bubbleSort">Bubble Sort</button>
+            <button type="button" class="start__btn insertionSort">Insertion Sort</button>
+            <button type="button" class="start__btn quickSort">Quick Sort</button>
+        </div>
+    </aside>
+    <div id="bars" class="flex-container"></div>
+</div>
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/switches.js"></script>
+</body>
+</html>
