@@ -69,7 +69,6 @@ delayElem.addEventListener('input', function(){
 });
 
 export function setArr(barsNum = 20) {
-	console.log('new Arrr')
 	clearArr();
 	setProgressSize();
 	let array = [];
@@ -132,7 +131,6 @@ export function disabledAll(){
 }
 
 export function enableAll(){
-	console.log('возвращаем в работу')
 	enableSortingBtn();
 	enableSizeSlider();
 	enableNewArrayBtn();
